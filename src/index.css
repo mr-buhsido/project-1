@@ -52,7 +52,7 @@ main {
 	color: #ffffff;
 	margin: 2% 0% 2% 2%;
 	padding: 10px 0px 10px 27px;
-	background-image: url("../public/images/react-icon-large.png");
+	background-image: url("./images/react-icon-large.png");
 	background-repeat: no-repeat;
 	background-position: right 75%;
 	background-size: 10%;
