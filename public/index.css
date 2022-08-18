@@ -1,0 +1,82 @@
+/* font-family: "Alumni Sans Collegiate One", sans-serif; */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #282d35;
+	font-family: "Inter";
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	background-color: #21222a;
+}
+
+img {
+	color: #61dafb;
+	margin: 2% 0.7% 2% 2%;
+
+	/* border: 1.23587px solid #00d8ff; */
+
+	width: 3%;
+}
+
+.navbar > h2 {
+	/* margin-right: auto; */
+	color: #61dafb;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22.2535px;
+	line-height: 27px;
+	letter-spacing: -0.05em;
+}
+.navbar > h3 {
+	margin-left: auto;
+	padding-right: 2.5%;
+	top: 38px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: right;
+	color: #deebf8;
+}
+
+main {
+	color: #ffffff;
+	margin: 2% 0% 2% 2%;
+	padding: 10px 0px 10px 27px;
+	background-image: url("./images/react-icon-large.png");
+	background-repeat: no-repeat;
+	background-position: right 75%;
+	background-size: 10%;
+}
+
+main > h1 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 39.06px;
+	line-height: 47px;
+	letter-spacing: -0.05em;
+}
+
+main > ul > li {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	padding-block: 0.8%;
+}
+
+main > ul > li::marker {
+	font-size: 1.5rem;
+	color: #61dafb;
+}
